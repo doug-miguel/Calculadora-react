@@ -2,15 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import '././Main/Calculator'
-import reportWebVitals from './reportWebVitals';
 import Calculator from '././Main/Calculator';
 
 ReactDOM.render(
   <React.Fragment>
     <h1>Calculadora</h1>
-    <Calculator/>
+    <Calculator />
   </React.Fragment>,
   document.getElementById('root')
 );
-
-reportWebVitals();
